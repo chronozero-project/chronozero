@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
     }
     std::ifstream file(argv[1]);
     if (!file) {
-        std::cerr << "Chronox: Can't open file: " << argv[1] << std::endl;
+        std::cerr << "Chronozero: Can't open file: " << argv[1] << std::endl;
         return 1;
     }
     const std::string source(
@@ -68,7 +68,7 @@ int main(int argc, char* argv[]) {
             << token.text << std::endl;
         }
     }catch (const std::exception& e) {
-        std::cerr << "Chronox: " << e.what() << std::endl;
+        std::cerr << "Chronozero: " << e.what() << std::endl;
         return 1;
     }
 
