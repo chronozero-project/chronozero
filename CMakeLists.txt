@@ -11,4 +11,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(chronos
     main.cpp
+        src/token.h
+        src/token.cpp
+        src/lexer.cpp
+        src/lexer.h
 )
