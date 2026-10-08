@@ -16,4 +16,5 @@ add_executable(chronozero
         src/lexer.cpp
         src/lexer.h
         src/ast.h
+        src/parser.h
 )
