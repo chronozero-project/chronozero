@@ -42,7 +42,7 @@ struct returnStatement : statement {
 
 struct variableDeclaration : statement {
     tokenKind type;
-    std::string name,
+    std::string name;
     std::unique_ptr<expression> initializer;
 
     variableDeclaration(
