@@ -15,4 +15,5 @@ add_executable(chronozero
         src/token.cpp
         src/lexer.cpp
         src/lexer.h
+        src/ast.h
 )
